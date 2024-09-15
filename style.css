@@ -1,4 +1,5 @@
-.my-custom-row {
-  background-color: bisque;
-  height: 400px;
+.midinfo {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
 }/*# sourceMappingURL=style.css.map */
