@@ -1,5 +1,65 @@
+$maintext: #f4f6fb;
+$accent: #8B37FF;
+$fade: #a2a2a2;
+
 .midinfo {
     text-align: center;
     display: flex;
     flex-direction: column;
+}
+
+.main {
+    background-image: url(images/background.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: $maintext;
+    height: 90vh;
+    margin: 0;
+    padding: 5vh;
+    font-size: 3vh;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+}
+
+.main > * {
+    justify-content: center;
+    text-align: center;
+}
+
+.btn {
+    background-color: $accent;
+    color: $maintext;
+    font-size: 3vh;
+    border: 0;
+}
+
+.btn:hover {
+    background-color: $accent;
+    color: $maintext;
+}
+
+.footer {
+    background-color: $maintext;
+    text-align: center;
+}
+
+.header {
+    color: $accent;
+    font-size: 5vh;
+}
+
+.htext {
+    color: $maintext;
+}
+
+.subtitle {
+    font-size: 4vh;
+}
+
+.minfofade {
+    opacity: 0.7;
+    font-size: 2.5vh;
 }
