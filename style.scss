@@ -19,9 +19,6 @@ $fade: #a2a2a2;
     margin: 0;
     padding: 5vh;
     font-size: 3vh;
-    display: flex;
-    flex-direction: column;
-    align-content: space-around;
 }
 
 .main > * {
@@ -41,11 +38,6 @@ $fade: #a2a2a2;
     color: $maintext;
 }
 
-.footer {
-    background-color: $maintext;
-    text-align: center;
-}
-
 .header {
     color: $accent;
     font-size: 5vh;
@@ -62,4 +54,14 @@ $fade: #a2a2a2;
 .minfofade {
     opacity: 0.7;
     font-size: 2.5vh;
+}
+
+.minfo {
+    width: 70%;
+}
+
+.footer {
+    background-color: $maintext;
+    text-align: center;
+    height: 10vh;
 }
