@@ -19,6 +19,8 @@ $fade: #a2a2a2;
     margin: 0;
     padding: 5vh;
     font-size: 3vh;
+    display: grid;
+    align-content: space-between;
 }
 
 .main > * {
@@ -40,7 +42,7 @@ $fade: #a2a2a2;
 
 .header {
     color: $accent;
-    font-size: 5vh;
+    font-size: 7vh;
 }
 
 .htext {
@@ -58,10 +60,13 @@ $fade: #a2a2a2;
 
 .minfo {
     width: 70%;
+    margin: auto;
 }
 
 .footer {
     background-color: $maintext;
     text-align: center;
-    height: 10vh;
+    padding: 20px;
+    display: grid;
+    align-content: center;
 }
